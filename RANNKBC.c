@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
+
 void answer();
 void money();
 FILE *fptr;
@@ -13,7 +15,7 @@ char ans;
 int mon=1000;
 int mon1=0;
 int flag2=1;
-void main()
+int main()
 {
  
     /*INTRO*/
@@ -57,17 +59,17 @@ void main()
     {
     printf("\n DO YOU WANT ANY LIFELINE? \n IF YESS ENTER Y\n IF NO ENTER N \n ");
     scanf(" %c",&opt);
-    if(opt=='Y')
+    if(opt=='Y' || opt=='y')
     {
             char ans1;
             ch=line[0];
              printf("\n ENTER YOUR FIRST ANSWER: \n");
              scanf(" %c",&ans);
-        if(ans!=ch)
+        if(tolower(ans)!=tolower(ch))
             {
                 printf("\n ENTER YOUR SECOND ANSWER \n");
                 scanf(" %c",&ans1);
-                if(ans1==ch)
+                if(tolower(ans1)==tolower(ch))
                 /*2ND ATTEMPT*/
                 {
 		// (only applicable to windows ) Beep(659,1200);
@@ -96,7 +98,7 @@ void main()
 
     count2++;
     }
-    else if(opt=='N')
+    else if(opt=='N' || opt=='n')
     {
     answer();
     }
@@ -106,6 +108,8 @@ void main()
       answer();
     } 
 }while(flag==1);
+
+return 0;
 }
 
 
@@ -122,7 +126,7 @@ void answer()
             ch=line[0];
 
 
-            if(ans==ch)
+            if(tolower(ans)==tolower(ch))
             {
 		// (only applicable to windows ) Beep(659,1200);
 		// (only applicable to windows ) Beep(698,350);
