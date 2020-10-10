@@ -6,12 +6,24 @@
   "commit": false,
   "contributors": [
     {
+    all-contributors/add-RakshitaTantry28
       "login": "RakshitaTantry28",
       "name": "RakshitaTantry28",
       "avatar_url": "https://avatars1.githubusercontent.com/u/55851040?v=4",
       "profile": "https://github.com/RakshitaTantry28",
       "contributions": [
         "bug"
+      ]
+    }
+
+    {
+    all-contributors/add-nidhivanjare
+      "login": "nidhivanjare",
+      "name": "Nidhi Vanjare",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55665104?v=4",
+      "profile": "https://nidhivanjare.wordpress.com/",
+      "contributions": [
+        "design"
       ]
     }
   ],
