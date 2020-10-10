@@ -6,12 +6,23 @@
   "commit": false,
   "contributors": [
     {
+      all-contributors/add-nikita24383
       "login": "nikita24383",
       "name": "nikita24383",
       "avatar_url": "https://avatars1.githubusercontent.com/u/55633694?v=4",
       "profile": "https://github.com/nikita24383",
       "contributions": [
         "projectManagement"
+        }
+
+    {
+      all-contributors/add-nikita24383
+      "login": "AmrutaKoshe",
+      "name": "Amruta Koshe",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/59871941?v=4",
+      "profile": "https://github.com/AmrutaKoshe",
+      "contributions": [
+        "code"
       ]
     }
   ],
