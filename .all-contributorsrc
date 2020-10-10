@@ -5,11 +5,19 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
-  
+    {
+      "login": "nidhivanjare",
+      "name": "Nidhi Vanjare",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55665104?v=4",
+      "profile": "https://nidhivanjare.wordpress.com/",
+      "contributions": [
+        "design"
+      ]
+    }
   ],
   "contributorsPerLine": 7,
-  "projectName": "IEEE-Website",
-  "projectOwner": "IEEE-APSIT",
+  "projectName": "KBC-Game",
+  "projectOwner": "R-A-N-N",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
