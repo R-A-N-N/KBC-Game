@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nikita24383",
+      "name": "nikita24383",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55633694?v=4",
+      "profile": "https://github.com/nikita24383",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "KBC-Game",
+  "projectOwner": "R-A-N-N",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
